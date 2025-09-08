@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af9f1c88-28d4-4d6b-a2ca-6b92167f7387">
+  <producedTypes>
+    <objectType typeId="51dc63bd-3073-4b1b-beab-e6edec1ca502" valueTypeId="dc3c89a7-0843-43c7-806c-8e6bb3e0557e"/>
+    <refType typeId="269fd989-1344-4437-b72c-41596c3002ff" valueTypeId="2af9ea47-b3cd-4561-8ea7-cbf344d121ef"/>
+    <selectionType typeId="4eceec70-75e2-4ba2-aaee-f230445133b5" valueTypeId="add4cc5d-bdb3-4f4b-8680-20ec8c0f3281"/>
+    <listType typeId="7ad190db-0e64-466c-b490-4d0acfefd2b8" valueTypeId="0ed474ac-5f92-4d23-a4d4-b43120807b76"/>
+    <managerType typeId="f7990c8c-832b-4f59-a459-2cc2b0ee1b40" valueTypeId="cf317eb8-0514-4983-8da3-4d34b52be076"/>
+  </producedTypes>
+  <name>ПортфелиПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портфели проектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПортфелиПроектов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПортфелиПроектов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

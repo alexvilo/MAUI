@@ -11,4 +11,5 @@
     <picture>CommonPicture.Планирование</picture>
   </picture>
   <content>Catalog.КлючевыеНаправленияДеятельности</content>
+  <content>Catalog.ТактическиеЦели</content>
 </mdclass:Subsystem>

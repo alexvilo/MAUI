@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="769f7d5c-65ac-4db4-998a-ec9bb7de3fd8">
+  <producedTypes>
+    <objectType typeId="1e095622-8fa0-472e-b63c-494b3396b34d" valueTypeId="7c8fffe3-d5ce-453d-8dbd-b52bd752ed01"/>
+    <refType typeId="4b44092d-bc32-44ae-9ef7-2d4062efced1" valueTypeId="12ddd0e5-9c4d-4292-8d16-b8c614ab9cbb"/>
+    <selectionType typeId="74f99163-4df4-4d4a-9304-ce378c7a4df4" valueTypeId="a2f783a8-cf6a-49db-ba86-26b3aa26beb5"/>
+    <listType typeId="0863e557-6032-4aa4-94b1-3de2eb28a3e0" valueTypeId="3d89a098-678a-4d34-89fd-91356e23e33b"/>
+    <managerType typeId="3a79e95f-1a9d-4d36-b11c-eba411209ed6" valueTypeId="474f2138-b65b-4864-9b84-703fc44584d7"/>
+  </producedTypes>
+  <name>ТактическиеЦели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тактические цели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТактическиеЦели.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТактическиеЦели.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тактические цели</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="fe708e3a-9411-4d0d-b0cf-db7661e88c6d">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючевыеНаправленияДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
